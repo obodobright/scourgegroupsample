@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+    font-size: 1.2rem;
+    background: linear-gradient(120deg, azure, azure)
+}
+
+header {
+    background: skyblue;
+}
+
+.jumbotron {
+    background: skyblue;
+    margin-top: 0;
+    border-radius: 0.5em
+}
+
+.display-4,
+.jumbotron h5 {
+    text-align: center;
+    font-weight: 700
+}
+
+nav a {
+    color: darkblue;
+    font-weight: bold
+}
+
+nav a:hover {
+    color: rgb(32, 32, 235);
+    font-size: 17px;
+}
+
+.dropdown-menu a {
+    color: white;
+    background: skyblue;
+}
+
+.dropdown-menu a:hover {
+    background: darkblue;
+    color: white
+}
+
+.body-content {
+    background: linear-gradient(90deg, lightblue, skyblue, azure);
+    color: #1034A6;
+    margin: 2em 0.5em 1em 0.5em;
+    border-radius: 0.5em;
+}
+
+.box-content {
+    width: 100%;
+    padding: 2em;
+    margin: 0.5em
+}
+
+.carousel-caption {
+    color: whitesmoke;
+    font-weight: 500
+}
+
+footer {
+    padding: 15px 0;
+    background: linear-gradient(90deg, lightblue, skyblue, azure);
+    margin-top: 2em;
+}
+
+.footer-box {
+    padding: 2em;
+    text-align: center;
+    color: #020c2c
+}
+
+.icon-bar {
+    text-align: center;
+    padding: auto 0.3em;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin {
+    padding: 0.5em 0.5em;
+    background: ;
+}
+
+@media (min-width: 768px) {
+    .body-content {
+        DISPLAY: FLEX
+    }
+    .footer-footer {
+        display: flex;
+        margin: auto 6em
+    }
+    .footer-box {
+        margin-left: 2em
+    }
+}
+
+
+}
+
+}
